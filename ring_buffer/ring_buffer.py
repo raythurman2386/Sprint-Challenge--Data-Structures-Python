@@ -10,7 +10,6 @@ class RingBuffer:
             # if the buffer is full
             # replace the oldest item
             if self.oldest >= self.capacity:
-                print(self.storage)
                 self.oldest = 0
                 self.storage[self.oldest] = item
             else:
