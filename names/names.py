@@ -19,7 +19,7 @@ bst = BSTNode('testing')
 # Not quite sure how else to accomplish this at the moment
 # OPTIMIZED TO RUN IN 0.172 SECONDS ON MY MACHINE
 # for each name in names_1
-for name in names_1:
+for name in names_1:  # O(n)
     # add that name to the binary search tree
     bst.insert(name)
 
